@@ -1,9 +1,9 @@
 require("catppuccin").setup({
     flavour = "mocha",
     background = {
-        dark = "mocha"
+        dark = "latte"
     },
-    transparent_background = true,
+    transparent_background = false,
     show_end_of_buffer = false, -- shows the '~' characters after the end of buffers
     term_colors = true, -- sets terminal colors (e.g. `g:terminal_color_0`)
     dim_inactive = {

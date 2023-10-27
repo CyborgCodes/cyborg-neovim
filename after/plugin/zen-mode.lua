@@ -1,7 +1,7 @@
 vim.keymap.set("n", "<C-w>o", function()
 	require("zen-mode").setup {
 		window = {
-			width = 90,
+			width = 160,
 			options = { }
 		},
 	}

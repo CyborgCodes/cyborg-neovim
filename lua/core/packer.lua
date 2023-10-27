@@ -24,6 +24,7 @@ return require('packer').startup(function(use)
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v3.x',
 	  requires = {
+      -- :Mason to install servers
 		  {'williamboman/mason.nvim'},
 		  {'williamboman/mason-lspconfig.nvim'},
 
@@ -40,12 +41,15 @@ return require('packer').startup(function(use)
   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'}) --Treesitter
   use 'folke/zen-mode.nvim' --Zen Mode
   use 'windwp/nvim-ts-autotag' --Auto Tag
+  --AutoPairs
   use {
       "windwp/nvim-autopairs",
       config = function() require("nvim-autopairs").setup {} end
   }
-  use { "catppuccin/nvim", as = "catppuccin" }
-  use 'folke/trouble.nvim'
-  use 'lewis6991/gitsigns.nvim'  
-  use 'dinhhuy258/git.nvim'
+  use { "catppuccin/nvim", as = "catppuccin" } --Theme
+  use 'folke/trouble.nvim' --Trouble 
+  use 'lewis6991/gitsigns.nvim' --GitSigns
+  use 'dinhhuy258/git.nvim' -- Git
+  use 'numToStr/Comment.nvim' -- Comment
+  use 'yamatsum/nvim-cursorline' --Cursor word & cursor line
 end)
