@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/Users/ct/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["flutter-tools.nvim"] = {
+    loaded = true,
+    path = "/Users/ct/.local/share/nvim/site/pack/packer/start/flutter-tools.nvim",
+    url = "https://github.com/akinsho/flutter-tools.nvim"
+  },
   ["git.nvim"] = {
     loaded = true,
     path = "/Users/ct/.local/share/nvim/site/pack/packer/start/git.nvim",
@@ -169,6 +174,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ct/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ripgrep = {
+    loaded = true,
+    path = "/Users/ct/.local/share/nvim/site/pack/packer/start/ripgrep",
+    url = "https://github.com/BurntSushi/ripgrep"
   },
   ["telescope.nvim"] = {
     loaded = true,

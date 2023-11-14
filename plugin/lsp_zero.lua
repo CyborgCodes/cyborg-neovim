@@ -12,6 +12,7 @@ lsp_zero.format_on_save({
     timeout_ms = 10000,
   },
   servers = {
-    ['tsserver'] = {'javascript', 'typescript', 'tsx', 'javascriptreact', 'typescriptreact'}
+    ['tsserver'] = {'javascript', 'typescript', 'tsx', 'javascriptreact', 'typescriptreact'},
+    ['dartls'] = {'dart'}
   }
 })

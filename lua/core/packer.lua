@@ -37,6 +37,13 @@ return require('packer').startup(function(use)
 	  }
   }
 
+  use {
+    'akinsho/flutter-tools.nvim',
+    requires = {
+      'nvim-lua/plenary.nvim'
+    },
+  }
+
   use 'L3MON4D3/LuaSnip' -- Snippets
   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'}) --Treesitter
   use 'folke/zen-mode.nvim' --Zen Mode
