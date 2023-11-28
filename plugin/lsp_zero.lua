@@ -24,3 +24,4 @@ lsp_zero.format_on_save({
     ['dartls'] = {'dart'}
   },
 })
+

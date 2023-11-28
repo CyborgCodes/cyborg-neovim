@@ -59,4 +59,6 @@ return require('packer').startup(function(use)
   use 'dinhhuy258/git.nvim' -- Git
   use 'numToStr/Comment.nvim' -- Comment
   use 'yamatsum/nvim-cursorline' --Cursor word & cursor line
+  use('jose-elias-alvarez/null-ls.nvim')
+  use('MunifTanjim/prettier.nvim')
 end)
